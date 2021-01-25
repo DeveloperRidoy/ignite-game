@@ -9,7 +9,7 @@ const GameDetail = () => {
   const [currentGame, setCurrentGame] = useContext(currentGameContext);
 
   const { game, screenshots } = currentGame;
-  console.log(game.platforms.map(item => item.platform.name));
+
   const closeGameDetail = (e) => {
 
     (e.target === e.currentTarget || e.key === "Escape") &&

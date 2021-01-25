@@ -18,7 +18,7 @@ export default function Home () {
       : "auto";
   }, [currentGame.showGameDetail])
 
-  return (
+  return ( 
     <div>
       <Head>
         <title>Ignite</title>
@@ -101,7 +101,7 @@ const GameList = styled(motion.div)`
   @media (max-width: 600px) {
     padding: 1rem;
   }
-`
+` 
 const Games = styled(motion.div)`
   margin: 0 0 3rem 0;
   min-height: 80vh;

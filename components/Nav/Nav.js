@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 import { useState, useContext } from "react";
 import styled from "styled-components"
-import { Context } from "../../../Hoc/GlobalState";
-import Axios, { searchGames } from "../../../pages/api/axios";
+import { Context } from "../../Hoc/GlobalState";
+import Axios, { searchGames } from "../../pages/api/axios";
 
 export default function Nav () {
 
