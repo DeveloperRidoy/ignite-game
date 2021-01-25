@@ -1,5 +1,4 @@
 {
-  "homepage": "https://developerridoy.github.io/",
   "name": "ignite",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
-    "deploy": "gh-pages -d build"
+    "export": "next build && next export"
   },
   "dependencies": {
     "axios": "^0.21.1",

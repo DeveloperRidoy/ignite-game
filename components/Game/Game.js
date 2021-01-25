@@ -24,7 +24,7 @@ const Game = ({ id, name, image, released }) => {
     return (
       <GAME
         initial={{opacity: 0, scale: .5}}
-        animate={{opacity: 1, scale: 1, transition: {duration: .5}}}
+        animate={{ opacity: 1, scale: 1, transition: { duration: .5 } }}
         layout
         layoutId={id}
         onClick={getGameDetail}
@@ -48,7 +48,7 @@ const GAME = styled(motion.div)`
   overflow: hidden;
   :focus {
     outline: none;
-
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   }
   :hover {
     cursor: pointer;
