@@ -2,7 +2,7 @@ import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
 import Head from 'next/head'
 import { useContext, useEffect } from 'react';
 import styled from 'styled-components';
-import Game from '../components/game/Game';
+import Game from '../components/Game/Game';
 import GameDetail from '../components/Game/GameDetail';
 import { Context, currentGameContext } from '../Hoc/GlobalState';
 
