@@ -56,7 +56,7 @@ export default function index() {
   const constrainsRef= useRef(null)
     return (
       <motion.div layout className="container py-5">
-        <div className="d-flex justify-content-around mb-4">
+        <TogglerContainer>
           {Object.keys(showCards).map((circle) => (
             <Toggler
               layout
@@ -81,7 +81,7 @@ export default function index() {
               </div>
             </Toggler>
           ))}
-        </div>
+        </TogglerContainer>
         <AnimateSharedLayout type="crossfade">
           <CriclesContainer layout ref={constrainsRef}>
             <AnimatePresence>
@@ -116,6 +116,12 @@ export default function index() {
 }
 
 //css
+const TogglerContainer = styled(motion.div)`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 7rem;
+`
 
 const Toggler = styled(motion.button)`
   padding: 2rem 1.2rem;

@@ -8,7 +8,7 @@ import { Context, currentGameContext } from '../Hoc/GlobalState';
 
 
 export default function Home () {
-
+  
   const [{ popular, newGames, upcoming, searched }] = useContext(Context)
   const [ currentGame ] = useContext(currentGameContext)
 
