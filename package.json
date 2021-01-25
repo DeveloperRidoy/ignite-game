@@ -1,0 +1,23 @@
+{
+  "homepage": "https://developerridoy.github.io/",
+  "name": "ignite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "framer-motion": "^3.2.1",
+    "gh-pages": "^3.1.0",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.4",
+    "styled-components": "^5.2.1"
+  }
+}
